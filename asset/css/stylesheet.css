@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: inline;
+    vertical-align: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #786856;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #665848;
+}
+
+/* ---------------- */
+
+section {
+}
+
+footer {
+}
+
+article {
+}
+
+aside {
+}
