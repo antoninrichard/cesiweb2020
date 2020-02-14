@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>MADERA - CONTACT</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <link rel="icon" href="../assets/img/favicon.ico">
+    </head>
+    <body>
+    <nav>
+        <ul>
+            <div id="logo_nav">
+                <li><a href="#"><img src="../assets/img/logo.png" alt="madera"></a></li>
+            </div>
+            <div id="link_nav">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a class="active">Contact</a></li>
+                <div id="burger-button">
+                    <img src="../assets/img/burger-menu.png" alt="burger button">
+                </div>
+            <div>
+        </ul>
+    </nav>
+        <section class="contact">
+            <h3 class="title"><span>CONTACT</span></h3>
+            <section class="sectioncontact">
+                <h5 class="service_title" id="contact_titre"><span>Pour toute demande de devis</span></h5>
+                <form method="POST" action="">
+                    <div id="formulaire">
+                        <div id="contactnom" class="contactcomponent">
+                            <label>Nom *:</label>
+                            <input type="text" placeholder="Nom" required>
+                        </div>
+                        <div id="contactprenom" class="contactcomponent">
+                            <label>Prénom *:</label>
+                            <input type="text" placeholder="Prénom" required>
+                        </div>
+                        <div id="contactemail"  class="contactcomponent">
+                            <label>E-mail *:</label>
+                            <input type="text" placeholder="exemple@exemple.fr" required>
+                        </div>
+                        <div id="contactobjet" class="contactcomponent">
+                            <label>Objet *:</label>
+                            <input type="text" placeholder="Devis" required>
+                        </div>
+                        <div id="contactmessage" class="contactcomponent">
+                            <label>Message *:</label>
+                            <textarea required name="form_text" cols="30" rows="10" placeholder="Veuillez insérer votre texte ici."></textarea>
+                        </div>
+                        <input type="submit" id="button" value="ENVOYER">
+                    </div>
+                </form>
+            </section>
+        </section>
+        <img id="location" src="../assets/img/madera_map.png" alt="localisation"/>
+    <footer>
+        <small>&copy; Madera 2020 | Tous droit réservés</small>
+    </footer>
+</body>
+</html>
