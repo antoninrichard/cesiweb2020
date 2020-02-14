@@ -1,120 +1,257 @@
 <!DOCTYPE html>
-<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
-<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
-<!--[if IE 8]><html class="preIE9"><![endif]-->
-<!--[if gte IE 9]><!--><html lang="fr"><!--<![endif]-->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Projet Madera</title>
-    <meta name="author" content="Antonin RICHARD">
-    <meta name="description" content="Site vitrine de l'entreprise madera, support pour le cours de web">
-    <meta name="keywords" content="cesi, cours, web, support, 2020, nantes, ecole, informatique, pfr, projet, fil, rouge">
-    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
-    <link rel="stylesheet" href="./asset/css/stylesheet.css" type="text/css">
-</head>
-<body id="page">
-<header>
-    <a href="#"><img src="./asset/img/logo.png" alt="Logo madera"></a>
-    <nav>
-    <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">L'entreprise</a></li>
-        <li><a href="#">Nos solutions</a></li>
-        <li><a href="#">CCTP</a></li>
-        <li> <a href="#">Contact</a></li>
-    </ul>
-</nav>
-</header>
+<html lang="fr" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+    
+    <head>
 
-<main>
-    <h1>Nos domaines d'intervention :</h1>
-    <div class="domaine">
-        <!--image du domaines d'acti -->
-        <img src="./asset/img/TERTIAIRE.jpg" alt="tertiaire">
-        <!--titre du domaines d'acti -->
-        <h2>TERTIAIRE</h2>
-        <!--description du domaines d'acti -->
-        <p>Des projets personnalisés à l'image de l'entreprise...</p>
-        <!-- Lien vers la page du domaine d'acti -->
-        <a href="http://madera-construction.fr/tertiaire">Découvrez nos réponses</a>
-    </div>
-    <div class="domaine">
-        <!--image du domaines d'acti -->
-        <img src="./asset/img/ASSOCIATIONS.jpg" alt="association">
-        <!--titre du domaines d'acti -->
-        <h2>ASSOCIATION</h2>
-        <!--description du domaines d'acti -->
-        <p>Des projets rassembleurs pour se réunir, s'exprimer...</p>
-        <!-- Lien vers la page du domaine d'acti -->
-        <a href="http://madera-construction.fr/associations">Découvrez nos réponses</a>
-    </div>
-    <div class="domaine">
-        <!--image du domaines d'acti -->
-        <img src="./asset/img/loca-2.jpg" alt="location">
-        <!--titre du domaines d'acti -->
-        <h2>LOCATION</h2>
-        <!--description du domaines d'acti -->
-        <p>Des produits spécifiques à hautes performances dédiés aux besoins temporaires </p>
-        <!-- Lien vers la page du domaine d'acti -->
-        <a href="http://madera-construction.fr/location">Découvrez nos réponses</a>
-    </div>
-    <div class="domaine">
-        <!--image du domaines d'acti -->
-        <img src="./asset/img/CRECHES-SCOLAIRE.jpg" alt="Crêches scolaires">
-        <!--titre du domaines d'acti -->
-        <h2>Crêches-scolaire</h2>
-        <!--description du domaines d'acti -->
-        <p>Des projets agréables à vivre pour accueillir nos enfants dans les meilleurs conditions...</p>
-        <!-- Lien vers la page du domaine d'acti -->
-        <a href="http://madera-construction.fr/creches-scolaire">Découvrez nos réponses</a>
-    </div>
-    <div class="domaine">
-        <!--image du domaines d'acti -->
-        <img src="./asset/img/BAILLEURS-SOCIAUX.jpg" alt="Bailleur sociaux">
-        <!--titre du domaines d'acti -->
-        <h2>BAILLEURS SOCIAUX</h2>
-        <!--description du domaines d'acti -->
-        <p>Des projets conceptualisés pour aborder différemment la rénovation des immeubles...</p>
-        <!-- Lien vers la page du domaine d'acti -->
-        <a href="http://madera-construction.fr/bailleurs-sociaux">Découvrez nos réponses</a>
-    </div>
-    <div class="domaine">
-        <!--image du domaines d'acti -->
-        <img src="./asset/img/SECTEUR-AGRICOLE.jpg" alt="agricole">
-        <!--titre du domaines d'acti -->
-        <h2>AGRICOLE</h2>
-        <!--description du domaines d'acti -->
-        <p> Des projets cohérents, dans une approche globale de respect de la terre et de l'environnement.</p>
-        <!-- Lien vers la page du domaine d'acti -->
-        <a href="http://madera-construction.fr/secteur-agricole">Découvrez nos réponses</a>
-    </div>
-</main>
-<aside>
-    <h1>Nos dernières actualitées: </h1>
+        <!-- meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="robots" content="noindex, nofollow">
+        
+        <!-- title -->
+        <title>Projet Madera</title>
 
-        <article>
-            <!-- titre de l'actu -->
-            <h2>Micro-crèche :</h2>
-            <!-- image de l'actu -->
-            <img src="./asset/img/diapo_4.jpg" alt="actu1"/>
-            <!-- description de l'actu -->
-            <p>Après la réalisation de leur micro-crèche en 2013, très appréciée de l'ensemble des utilisateurs et qui</p>
-            <a href="">Lire plus...</a>
-        </article>
-        <article>
-            <!-- titre de l'actu -->
-            <h2>Challex :</h2>
-            <!-- image de l'actu -->
-            <img src="./asset/img/diapo_5.jpg" alt="actu2"/>
-            <!-- description de l'actu -->
-            <p>La Ville de Challex nous confie la construction d'un restaurant scolaire et de locaux périscolaire.</p>
-            <a href="">Lire plus...</a>
-        </article>
-</aside>
-<footer>
-Antonin RICHARD
-</footer>
-</body>
+        <!-- link -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- icon -->
+        <link rel="icon" href="assets/img/favicon.ico">
+
+    </head>
+    <body>
+
+        <!-- navbar -->
+        <nav>
+            <ul>
+                <div id="logo_nav">
+                    <li><a href="/"><img src="assets/img/logo.png" alt="logo madera"></a></li>
+                </div>
+                <div id="link_nav">
+                    <li><a href="index.html"class="active">Accueil</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <div id="burger-button">
+                        <img src="assets/img/burger-menu.png" alt="burger button">
+                    </div>
+                </div>
+            </ul>
+        </nav>
+
+        <!--image principale -->
+        <section class="primarypicture">
+            <img class="primarypicture" src="assets/img/maison_modulaire.jpg">
+        </section>
+
+        <!-- secteurs -->
+        <section id="mainpresentation" class="secteur">
+
+            <h3 class="title"><span>Nos secteurs d'intervention</span></h3>
+            <div class="layoutbutton">
+                <button class="btn" v-bind:class="{ 'active': layout == '3D'}" v-on:click="layout = '3D'">3D</button>
+                <button class="btn" v-bind:class="{ 'active': layout == '2D'}" v-on:click="layout = '2D'">2D</button>
+            </div>
+
+            <section  v-if="layout === '2D'" id="sectionsecteur">
+                
+                <article id="tertiaire">
+                    <a href="#">
+                        <img src="https://lh3.googleusercontent.com/proxy/IRB1z-mLXRRz_o6wPPIOZfeazPQHBZvcO-58Hz6RtjR2Vrhj0CL-Ve2cyVCfQRxTNadiQ0M3ElP7QjRy" alt="tertiaire" >
+                        <div>
+                            <h5>tertiaire</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article id="creches">
+                    <a href="#">
+                        <img src="https://www.lamaisonabordable.fr/photos/liste/maison-modulaire-bois-6609.jpg" alt="CRECHES-SCOLAIRE" >
+                        <div>
+                            <h5>crèches-scolaire</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article id="association">
+                    <a href="#">
+                        <img src="https://static.travaux.com/wp-content/uploads/2015/11/Maison-modulaire-France-bois-modulaire.jpg" alt="associations" >
+                        <div>
+                            <h5>associations</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article id="bailleurs">
+                    <a href="#">
+                        <img src="https://www.chaletdejardin.fr/media/catalog/product/cache/3/small_image/170ec19af00183b5e0368529fc2daa2f/l/y/lydia_main.jpg" alt="bailleurs sociaux" >
+                        <div>
+                            <h5>bailleurs sociaux</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article id=#">
+                    <a href="#">
+                        <img src="https://www.scieriesillat.com/upload/produit/0003/300-maison-modulaire.jpg" alt="location" >
+                        <div>
+                            <h5>Location</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article id="#">
+                    <a href="#">
+                        <img src="https://ws.pap.fr/cdnV1/590997b4eccc226d491738a4/590997b4eccc226d491738a4-1493801927-1000x1000.jpg" alt="agricole" >
+                        <div>
+                            <h5>agricole</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </a>
+                </article>
+
+            </section>
+
+            <section v-if="layout === '3D'" id="sectionsecteur2">
+                <div id="app" class="container">
+                    <card data-image="https://lh3.googleusercontent.com/proxy/IRB1z-mLXRRz_o6wPPIOZfeazPQHBZvcO-58Hz6RtjR2Vrhj0CL-Ve2cyVCfQRxTNadiQ0M3ElP7QjRy">
+                        <h1 slot="header">Tertiaire</h1>
+                        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </card>
+                    <card data-image="https://www.lamaisonabordable.fr/photos/liste/maison-modulaire-bois-6609.jpg">
+                        <h1 slot="header">Creches</h1>
+                        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </card>
+                    <card data-image="https://static.travaux.com/wp-content/uploads/2015/11/Maison-modulaire-France-bois-modulaire.jpg">
+                        <h1 slot="header">Association</h1>
+                        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </card>
+                    <card data-image="https://www.chaletdejardin.fr/media/catalog/product/cache/3/small_image/170ec19af00183b5e0368529fc2daa2f/l/y/lydia_main.jpg">
+                        <h1 slot="header">Bailleurs</h1>
+                        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </card>
+                    <card data-image="https://www.scieriesillat.com/upload/produit/0003/300-maison-modulaire.jpg">
+                        <h1 slot="header">Location</h1>
+                        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </card>
+                    <card data-image="https://ws.pap.fr/cdnV1/590997b4eccc226d491738a4/590997b4eccc226d491738a4-1493801927-1000x1000.jpg">
+                        <h1 slot="header">Agriculteur</h1>
+                        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </card>
+                </div>
+            </section>
+
+        </section>
+
+        <!-- présentation -->
+        <section class="presentation">
+
+            <h3 class="title"><span>Présentation de la société</span></h3>
+            <h4 class="title">Organigramme:</h4>
+            <div class="organigramme"><img class="organigramme" src="assets/img/organigrame.png" /></div>
+
+            <p>
+                    <strong>MADERA</strong> c’est un ensemble de compétences avec un chargé d’affaire dédié, un bureau d’étude intégré et une équipe de salariés expérimentés dans leur domaine; de la menuiserie - charpente aux finitions.<br>
+                    <strong>MADERA</strong> s’associe à des partenaires pour les lots techniques : Electricité – Plomberie – Chauffage – Ventilation<br>
+                    Un ensemble de compétences bien rodé, pour vous garantir la mise en place d’unités entièrement finies en usine et la livraison d’un bâtiment performant dans des délais records.
+            </p>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <small>&copy; Madera 2020 | Tous droit réservés</small>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+        <script>
+            //3D Version
+            Vue.config.devtools = true;
+
+            Vue.component("card", {
+                template: `
+    <div class="card-wrap"
+      @mousemove="handleMouseMove"
+      @mouseenter="handleMouseEnter"
+      @mouseleave="handleMouseLeave"
+      ref="card">
+      <div class="card"
+        :style="cardStyle">
+        <div class="card-bg" :style="[cardBgTransform, cardBgImage]"></div>
+        <div class="card-info">
+          <slot name="header"></slot>
+          <slot name="content"></slot>
+        </div>
+      </div>
+    </div>`,
+                mounted() {
+                    this.width = this.$refs.card.offsetWidth;
+                    this.height = this.$refs.card.offsetHeight;
+                },
+                props: ["dataImage"],
+                data: () => ({
+                    width: 0,
+                    height: 0,
+                    mouseX: 0,
+                    mouseY: 0,
+                    mouseLeaveDelay: null
+                }),
+                computed: {
+                    mousePX() {
+                        return this.mouseX / this.width;
+                    },
+                    mousePY() {
+                        return this.mouseY / this.height;
+                    },
+                    cardStyle() {
+                        const rX = this.mousePX * 30;
+                        const rY = this.mousePY * -30;
+                        return {
+                            transform: `rotateY(${rX}deg) rotateX(${rY}deg)`
+                        };
+                    },
+                    cardBgTransform() {
+                        const tX = this.mousePX * -40;
+                        const tY = this.mousePY * -40;
+                        return {
+                            transform: `translateX(${tX}px) translateY(${tY}px)`
+                        };
+                    },
+                    cardBgImage() {
+                        return {
+                            backgroundImage: `url(${this.dataImage})`
+                        };
+                    }
+                },
+                methods: {
+                    handleMouseMove(e) {
+                        this.mouseX = e.pageX - this.$refs.card.offsetLeft - this.width / 2;
+                        this.mouseY = e.pageY - this.$refs.card.offsetTop - this.height / 2;
+                    },
+                    handleMouseEnter() {
+                        clearTimeout(this.mouseLeaveDelay);
+                    },
+                    handleMouseLeave() {
+                        this.mouseLeaveDelay = setTimeout(() => {
+                            this.mouseX = 0;
+                            this.mouseY = 0;
+                        }, 1000);
+                    }
+                }
+            });
+
+            const app = new Vue({
+                el: "#mainpresentation",
+                data: {
+                    layout: '2D'
+                }
+            });
+
+
+        </script>
+    </body>
 </html>
