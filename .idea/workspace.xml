@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c89da014-b115-4813-bc5d-540e6e49d686" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cesiweb2020.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cesiwebv2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XkBHh6TmRoebcQ2PMFrFdJav7v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\richa\PhpstormProjects\cesiwebv2\assets\img" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c89da014-b115-4813-bc5d-540e6e49d686" name="Default Changelist" comment="" />
+      <created>1581580125765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581580125765</updated>
+      <workItem from="1581580127411" duration="3094000" />
+      <workItem from="1581588523998" duration="11000" />
+      <workItem from="1581596800627" duration="21344000" />
+      <workItem from="1581666246562" duration="9402000" />
+      <workItem from="1581676364745" duration="1725000" />
+    </task>
+    <task id="LOCAL-00001" summary="rebase commit cesiwebv2">
+      <created>1581676512664</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581676512664</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1581677102683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581677102683</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1581677199903</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581677199903</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="rebase commit cesiwebv2" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1102" y="254" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581598557730">
+      <screen x="0" y="0" width="1829" height="989" />
+    </state>
+    <state x="1102" y="254" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1829.989@0.0.1829.989" timestamp="1581598557730" />
+    <state x="539" y="90" key="CommitChangelistDialog2" timestamp="1581677198783">
+      <screen x="0" y="0" width="1829" height="989" />
+    </state>
+    <state x="539" y="90" key="CommitChangelistDialog2/0.0.1829.989@0.0.1829.989" timestamp="1581677198783" />
+    <state x="507" y="228" key="Vcs.Push.Dialog.v2" timestamp="1581677202945">
+      <screen x="0" y="0" width="1829" height="989" />
+    </state>
+    <state x="507" y="228" key="Vcs.Push.Dialog.v2/0.0.1829.989@0.0.1829.989" timestamp="1581677202945" />
+    <state x="610" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1581666433559">
+      <screen x="0" y="0" width="1829" height="989" />
+    </state>
+    <state x="610" y="320" key="com.intellij.ide.util.TipDialog/0.0.1829.989@0.0.1829.989" timestamp="1581666433559" />
+    <state x="608" y="92" width="612" height="804" key="find.popup" timestamp="1581582152850">
+      <screen x="0" y="0" width="1829" height="989" />
+    </state>
+    <state x="608" y="92" width="612" height="804" key="find.popup/0.0.1829.989@0.0.1829.989" timestamp="1581582152850" />
+  </component>
+</project>
