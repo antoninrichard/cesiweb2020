@@ -1,0 +1,578 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+h3.title {
+    text-align: center;
+    font-size: 4vw;
+    margin: 50px 0;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Century;
+    color: saddlebrown ;
+}
+h4.title{
+    text-align: left;
+    margin-left: 1vw;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: italic;
+    font-family: Century;
+    color: darkgreen;
+}
+h3.title>span{
+    border-bottom: darkgreen dotted .5vw;
+}
+strong{
+    color: green;
+}
+
+#location{
+    width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+/* gestion de la barre pour vue.js */
+.layoutbutton{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: saddlebrown;
+    border: none;
+    color: whitesmoke;
+    font-size: 2vw;
+    cursor: pointer;
+    margin: 2px
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: saddlebrown;
+}
+/***/
+
+nav {
+    width: 100%;
+    border-bottom: 4px solid saddlebrown;
+}
+
+nav>ul {
+    padding: 0 1em;
+    display: grid;
+    list-style: none;
+    height: 30px;
+    grid-template-areas:
+        "logo link"
+    ;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav>ul>div>li {
+    margin: auto 0;
+}
+
+#link_nav>li>a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+}
+
+#link_nav>li>a:hover {
+    color: grey;
+    border-bottom: 2px saddlebrown;
+    transition: color .4s;
+}
+
+#link_nav>li>a.active,
+#link_nav>li>a.active:hover {
+    color: saddlebrown;
+    font-weight: bold;
+    border-bottom: 2px solid saddlebrown;
+    cursor: default;
+}
+
+#logo_nav>li>a>img {
+    height: 2em;
+}
+
+#logo_nav {
+    grid-area: logo;
+}
+
+#link_nav {
+    grid-area: link;
+    margin: auto 0;
+}
+
+#link_nav>li{
+    padding-right: 1.5vw;
+    display: none;
+}
+
+#link_nav>div#burger-button {
+    display: block;
+}
+
+#link_nav>div#burger-button>img {
+    width: 1.5em;
+}
+
+section.primarypicture{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+img.primarypicture{
+    border : whitesmoke solid .5em;
+    border-radius: 5px;
+    margin-top: 2em;
+    height: 25vw;
+    width: 80vw;
+}
+footer {
+    margin-top: 20px;
+    padding: 15px 0;
+    text-align: center;
+    border-top: grey 1px solid;
+    background: saddlebrown;
+}
+
+footer>small {
+    margin: 0;
+    color: white;
+}
+#tertiaire {
+    grid-area: tertiaire;
+}
+
+#creches {
+    grid-area: creches;
+}
+
+#association {
+    grid-area: association;
+}
+
+#bailleurs {
+    grid-area: bailleurs;
+}
+
+#location {
+    grid-area: location;
+}
+
+#agricole {
+    grid-area: agricole;
+}
+
+section.secteur {
+    background-color: whitesmoke;
+    border-bottom: grey solid .2vw;
+    border-top: grey solid .2vw;
+}
+
+section#sectionsecteur {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "tertiaire creches"
+        "location association"
+        "agricole bailleurs"
+    ;
+    justify-content: center;
+    text-align: center;
+}
+
+section#sectionsecteur>article>a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+section#sectionsecteur>article>a>img {
+    width: 30vw;
+    height: 25vw;
+    margin-right: 0px;
+    border-radius: 5px;
+}
+
+section#sectionsecteur>article>a>div>h5 {
+    font-size: 2.6vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    color: grey;
+    margin-top: 10px;
+}
+
+section#sectionsecteur>article>a:hover>div>h5 {
+    color: saddlebrown;
+    transition: color .3s;
+    text-decoration: underline;
+}
+
+section#sectionsecteur>article>a>div>p {
+    display: none;
+}
+
+section.presentation>div {
+    margin: 10px;
+}
+section.presentation>p{
+    font-size: 2vw;
+    margin-left: 3vw;
+}
+
+div.organigramme{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+img.organigramme{
+    width: 60vw;
+}
+
+section.presentation>p {
+    margin: 20px 20px;
+    font-size: 3vw;
+}
+
+
+section.sectioncontact {
+    margin: 0;
+}
+
+div.contactcomponent>label{
+    text-align: left;
+    margin: 0 30px;
+    grid-area: legende;
+}
+
+div.contactcomponent>input,textarea{
+    padding: 2vw;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    grid-area: saisie;
+}
+
+div.contactcomponent {
+    display: grid;
+    margin: 0;
+    grid-template-areas:
+        "legende"
+        "saisie"
+    ;
+    justify-content: center;
+    grid-gap: 1vw;
+}
+
+#contactnom{
+    grid-area: nom;
+}
+
+#contactprenom{
+    grid-area: prenom;
+}
+
+#contactemail{
+    grid-area: email;
+}
+
+#contactobjet{
+    grid-area: objet;
+}
+#contactmessage{
+    grid-area: message;
+}
+#button{
+    horiz-align: center;
+    border-radius: 3px;
+    background-color: white;
+    color: saddlebrown;
+    cursor: pointer;
+    grid-area: bouton;
+}
+#button:hover{
+    background-color: saddlebrown;
+    color: white;
+    font-weight: bold;
+}
+#formulaire{
+    display: grid;
+    grid-template-areas:
+        "nom"
+        "prenom"
+        "email"
+        "objet"
+        "message"
+        "button";
+    justify-content: center;
+    grid-gap: 1vw;
+}
+
+
+section.sectioncontact {
+    display: grid;
+    grid-template-areas:
+        "titre"
+        "formulaire"
+    ;
+    justify-content: center;
+    grid-gap: 1vw;
+}
+
+h5#contact_titre {
+    grid-area: titre;
+    text-align: center;
+    font-size: 4vw;
+}
+
+section.sectioncontact>form {
+    grid-area: formulaire;
+}
+
+/* CSS POUR LES CARDS 3D */
+
+.title {
+    font-family: Century;
+    font-size: 24px;
+    font-weight: 700;
+    color: #5d4037;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+h1 + p,
+p + p {
+    margin-top: 10px;
+}
+.container {
+    padding: 40px 80px;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.card-wrap {
+    margin: 10px;
+    -webkit-transform: perspective(800px);
+    transform: perspective(800px);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+.card-wrap:hover .card-info {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.card-wrap:hover .card-info p {
+    opacity: 1;
+}
+.card-wrap:hover .card-info,
+.card-wrap:hover .card-info p {
+    -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.card-wrap:hover .card-info:after {
+    -webkit-transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.card-wrap:hover .card-bg {
+    -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+    opacity: 0.8;
+}
+.card-wrap:hover .card {
+    -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+    box-shadow: rgba(255, 255, 255, 0.2) 0 0 40px 5px, white 0 0 0 1px, rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset white 0 0 0 6px;
+}
+
+.card {
+    position: relative;
+    -webkit-box-flex: 0;
+    flex: 0 0 240px;
+    width: 240px;
+    height: 320px;
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
+    -webkit-transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.card-bg {
+    opacity: 0.5;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    pointer-events: none;
+}
+
+.card-info {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    -webkit-transform: translateY(40%);
+    transform: translateY(40%);
+    -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.card-info p {
+    opacity: 0;
+    text-shadow: black 0 2px 3px;
+    -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.card-info * {
+    position: relative;
+    z-index: 1;
+}
+.card-info:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.6)));
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 100%);
+    background-blend-mode: overlay;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.card-info h1 {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+}
+/***************************************************************************************FOR DESKTOP******************************************************/
+@media screen and (min-width: 720px) {
+
+    h6 {
+        font-size: 20px;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    nav>ul>div {
+        display: flex;
+    }
+    nav>ul>div#link_nav>div#burger-button {
+        display: none;
+    }
+
+    nav>ul>div#link_nav>li{
+        display: block;
+    }
+
+    footer {
+        margin: 0;
+    }
+
+
+    section#sectionsecteur{
+        grid-gap: 15px;
+        grid-template-areas:
+                "tertiaire creches association"
+                "location agricole bailleurs"
+    ;
+        margin: 50px 150px;
+        text-align: left;
+    }
+
+    section#sectionsecteur>article>a {
+        display: flex;
+    }
+
+    section#sectionsecteur>article>a>img {
+        width: 175px;
+        height: 135px;
+        margin-right: 15px;
+    }
+
+    section#sectionsecteur>article>a>div>h5 {
+        font-size: 25px;
+    }
+
+    section#sectionsecteur>article>a>div>p {
+        display: block;
+    }
+    section.presentation>p {
+        margin: 50px 175px;
+        font-size: 1.3vw;
+    }
+
+    section.presentation>article>img {
+        height: auto;
+        width: auto;
+    }
+
+    section.presentation>article {
+        margin-bottom: 100px;
+    }
+
+    section.sectioncontact {
+        justify-content: center;
+        margin: 10vh 10vw;
+    }
+
+    h5#contact_titre {
+        font-size: 1.5vw;
+    }
+
+    div.contactcomponent {
+        grid-template-areas:
+            "legende saisie"
+        ;
+    }
+
+    #formulaire{
+        grid-template-areas:
+                "nom prenom"
+                "email objet"
+                "message message"
+                "button button";
+    }
+    #mobile_responsive{
+        display: none;
+    }
+}
